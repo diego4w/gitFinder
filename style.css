@@ -34,10 +34,28 @@ header{
     max-width: 230px;
 }
 
+.ppp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .profile img{ 
     float: right;
     width: 80px;
     margin: 0 20px;
     border-radius: 80px;
+}
+
+.styleres{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.respositories{
+    border: solid red;
+    margin: 5px;
+    min-width: 360px;
 }
